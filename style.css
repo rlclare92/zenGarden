@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono');
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap');
+
+
+header{
+    background: url(./images/huntington.png);
+    background-repeat: no-repeat;
+    width: 1450px;
+    height: 200px;
+    background-position: top;
+    color: white;
+    font-size: 24px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+}
+
+div[role=article]{
+    background: url(./images/zen.svg);
+    background-repeat: no-repeat;
+    background-size: auto; 
+    color: darkslategray;
+    font-size: 24px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: left;
+    /* margin-left: 20px;
+    margin-right: 600px; */
+}
+
+.participation{
+    background-image: url(./images/bamboo.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-color: rgb(75, 99, 99);
+}
