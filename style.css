@@ -7,8 +7,7 @@
 header{
     background: url(./images/huntington.png);
     background-repeat: no-repeat;
-    width: 1450px;
-    height: 200px;
+    background-size: auto;
     background-position: top;
     color: white;
     font-size: 24px;
@@ -28,7 +27,7 @@ div[role=article]{
     margin-right: 600px; */
 }
 
-.participation{
+#participation{
     background-image: url(./images/bamboo.png);
     background-repeat: no-repeat;
     background-size: auto;
