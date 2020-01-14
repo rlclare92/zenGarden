@@ -14,20 +14,16 @@ header{
     font-family: 'Open Sans Condensed', sans-serif;
     text-align: center;
 }
-
 div[role=article]{
-    background: url(./images/zen.svg);
+    background: url(./images/bamboo.png);
     background-repeat: no-repeat;
-    background-size: auto; 
-    color: darkslategray;
+    background-size: cover; 
+    background-color: whitesmoke;
     font-size: 24px;
     font-family: 'Open Sans Condensed', sans-serif;
     text-align: left;
-    /* margin-left: 20px;
-    margin-right: 600px; */
 }
-
-#participation{
+.participation{
     background-image: url(./images/bamboo.png);
     background-repeat: no-repeat;
     background-size: auto;
