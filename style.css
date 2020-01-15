@@ -80,12 +80,18 @@ p[role=contentinfo]{
     text-align: center;
 }
 footer{
-    background: rgb(24, 34, 24);
+    background-color: #144347;
     padding: 60px 0px;
     font-size: 75px;
     text-align: center;
     height: 15%;
     width: 100%;
 }
+footer a{
+    color: rgb(153, 192, 194);
+}
+footer a:hover{
+    background: #5E7C7E;
 
+}
 
