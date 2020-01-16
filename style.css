@@ -89,17 +89,60 @@ footer{
     transition: border-radius 3s;
     transition-timing-function: ease;
 }
-.footer a{
-    width: 70px;
-    height: 50px;
-    background-color: rgb(153, 192, 194);
-    transition: border-radius 3s;
+.zen-validate-html{
+    width: 30px;
+    height: 30px;
+    background-color: #144347;
+    transition: border-radius 1s;
     transition-timing-function: ease;
 }
-footer a:hover{
-    border-radius: 50%;
-    background: #5E7C7E;
-
+.zen-validate-html:hover{
+border-radius: 100%;
+background: #5E7C7E;
+}
+.zen-validate-css{
+    width: 30px;
+    height: 30px;
+    background-color: #144347;
+    transition: border-radius 1s;
+    transition-timing-function: ease;
+}
+.zen-validate-css:hover{
+border-radius: 100%;
+background: #5E7C7E;
+}
+.zen-license{
+    width: 30px;
+    height: 30px;
+    background-color: #144347;
+    transition: border-radius 1s;
+    transition-timing-function: ease;
+}
+.zen-license{
+border-radius: 100%;
+background: #5E7C7E;
+}
+.zen-accessibility{
+    width: 30px;
+    height: 30px;
+    background-color: #144347;
+    transition: border-radius 1s;
+    transition-timing-function: ease;
+}
+.zen-accessibility{
+border-radius: 100%;
+background: #5E7C7E;
+}
+.zen-github{
+    width: 30px;
+    height: 30px;
+    background-color: #144347;
+    transition: border-radius 1s;
+    transition-timing-function: ease;
+}
+.zen-github{
+border-radius: 100%;
+background: #5E7C7E;
 }
 .design-name {
     color: rgb(35, 58, 39);
