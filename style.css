@@ -86,12 +86,43 @@ footer{
     text-align: center;
     height: 15%;
     width: 100%;
+    transition: border-radius 3s;
+    transition-timing-function: ease;
 }
-footer a{
-    color: rgb(153, 192, 194);
+.footer a{
+    width: 70px;
+    height: 50px;
+    background-color: rgb(153, 192, 194);
+    transition: border-radius 3s;
+    transition-timing-function: ease;
 }
 footer a:hover{
+    border-radius: 50%;
     background: #5E7C7E;
 
 }
-
+.design-name {
+    color: rgb(35, 58, 39);
+    font-size: 24px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: left;
+}
+#design-archives{
+    background: rgb(152, 199, 158) url(./images/bamboo.png);
+    width: auto;
+    margin: 0;
+    color: rgb(240, 235, 235);
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 24px;
+    text-align: left;
+    padding-bottom: 5px;
+}
+#zen-resources{
+    background: rgb(152, 199, 158) url(./images/bamboo.png);
+    width: auto;
+    margin: 0;
+    color: rgb(240, 235, 235);
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 24px;
+    text-align: left;
+    padding-bottom: 5px;
