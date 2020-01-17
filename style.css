@@ -1,200 +1,166 @@
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono');
-@import url('https://fonts.googleapis.com/css?family=Satisfy');
 @import url('https://fonts.googleapis.com/css?family=Roboto:300');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Satisfy&display=swap');
 
+/* The header and P sections not too bad, mainly struggled with the footer icons and sections. */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+}
 
 header{
     background: rgb(31, 90, 31) 20% url(./images/huntington.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    color: #fff;
     padding: 60px 0px;
     text-align: center;
-    height: 15%;
     width: 100%;
 }
+
 h1{
-    font-family: 'Roboto', san-serif;
-    font-size: 40px;
-    font-weight: lighter;
+    color: #fff;
+    font-family: 'roboto', sans-serif;
+    font-size: 30px;
+    font-weight: expanded;
+    background-size: 20px;
+    background-position: 500px;;
     text-transform: uppercase;
     text-shadow: 2px 6px 3px black;
-    color: #fff;
-    padding-top: 30px;
+    padding-top: 70px;
+    padding-bottom: 20px;
 }
-.intro{
-    color: white;
-    font-size: 24px;
+
+h2{
+    background: url(./images/zen.svg);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 590px;
+    font-size: 16px;
     font-family: 'Open Sans Condensed', sans-serif;
-    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 60px;
 }
-.summary{
+
+h3{
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 100px;
+}
+
+p{
+    padding: 10px 100px 10px;
+}
+
+#zen-summary abbr, #zen-summary a, #zen-party abbr, #zen-explaintion a, #zen-participation a, #zen-benefits a, #zen-requirements abbr, [role=article] a, footer{
+    color: black;
+    text-decoration: none;
+}
+
+#zen-summary{
     color: rgb(35, 58, 39);
-    font-size: 24px;
-    font-family: 'Open Sans Condensed', sans-serif;
-    text-align: left;
+    font-size: 15px;
+    font-family: 'IBM Plex mono', monospace;
+    padding-bottom: 20px;
 }
-.preamble{
+
+#zen-preamble, #zen-explanation, #zen-requirements{
     color: rgb(35, 58, 39);
-    font-size: 24px;
-    font-family: 'Open Sans Condensed', sans-serif;
-    text-align: left;
+    font-size: 13px;
+    font-family: 'IBM Plex mono', monospace;
+    padding-bottom: 20px;
 }
-.explanation{
-    color: rgb(35, 58, 39);
-    font-size: 24px;
-    font-family: 'Open Sans Condensed', sans-serif;
-    text-align: left;
-}
-#zen-participation{
+
+#zen-participation, #zen-benefits{
     background: rgb(152, 199, 158) url(./images/bamboo.png);
+    background-repeat: none;
+    background-position: center;
+    background-size: none;
+    background-blend-mode: hard-light;
     width: auto;
     margin: 0;
     color: rgb(240, 235, 235);
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 24px;
-    text-align: left;
-    padding-bottom: 5px;
-}
-#zen-benefits{
-    background: rgb(152, 199, 158) url(./images/bamboo.png);
-    width: auto;
-    margin: 0;
-    color: rgb(240, 235, 235);
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 24px;
-    text-align: left;
-    padding-top: 5px;
-}
-.requirements{
-    color: rgb(35, 58, 39);
-    font-size: 24px;
-    font-family: 'Open Sans Condensed', sans-serif;
-    text-align: left;
+    font-family: 'IBM Plex mono', monospace;;
+    font-size: 13px;
+    padding-bottom: 20px;
 }
 
 p[role=contentinfo]{
     background: rgb(152, 199, 158) 20%;
-    padding: 60px 0px;
     color: rgb(240, 235, 235);
     font-size: 24px;
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Satisfy', cursive;
     text-align: center;
-}
-footer{
-    background-color: #144347;
     padding: 60px 0px;
-    font-size: 75px;
+}
+/* Really sturggling with the footer section taking alot of trail and error*/
+/* Also struggling with changing the colour of the links*/
+footer {
+    background-color: #144347;
+    padding: 15px 0px;
+    color: #fff;
+    font-size: 30px;
     text-align: center;
-    height: 15%;
-    width: 100%;
-    transition: border-radius 3s;
-    transition-timing-function: ease;
-}
-.zen-validate-html{
-    width: 30px;
-    height: 30px;
-    background-color: #144347;
-    color: #fff;
-    transition: border-radius 1s;
-    transition-timing-function: ease;
-}
-.zen-validate-html:hover{
-border-radius: 100%;
-background: #5E7C7E;
-}
-.zen-validate-css{
-    width: 30px;
-    height: 30px;
-    background-color: #144347;
-    color: #fff;
-    transition: border-radius 1s;
-    transition-timing-function: ease;
-}
-.zen-validate-css:hover{
-border-radius: 100%;
-background: #5E7C7E;
-}
-.zen-license{
-    width: 30px;
-    height: 30px;
-    background-color: #144347;
-    color: #fff;
-    transition: border-radius 1s;
-    transition-timing-function: ease;
-}
-.zen-license:hover{
-border-radius: 100%;
-background: #5E7C7E;
-}
-.zen-accessibility{
-    width: 30px;
-    height: 30px;
-    background-color: #144347;
-    color: #fff;
-    transition: border-radius 1s;
-    transition-timing-function: ease;
-}
-.zen-accessibility:hover{
-border-radius: 100%;
-background: #5E7C7E;
-}
-.zen-github{
-    width: 30px;
-    height: 30px;
-    background-color: #144347;
-    color: #fff;
-    transition: border-radius 1s;
-    transition-timing-function: ease;
-}
-.zen-github:hover{
-border-radius: 100%;
-background: #5E7C7E;
-}
-.select{
-    color: rgb(35, 58, 39);
-    font-size: 24px;
-    font-family: 'Open Sans Condensed', sans-serif;
-    text-align: left;
-    margin-bottom: 200px;
-}
-.design-name{
-    color: rgb(35, 58, 39);
-    font-size: 24px;
-    font-family: 'Open Sans Condensed', sans-serif;
-    text-align: right;
-    display: flex;
-    flex-direction: row-reverse;
-    text-decoration: nonrgb(35,58,39);
-}
-.designer-name{
-    color: rgb(35, 58, 39);
-    font-size: 24px;
-    font-family: 'Open Sans Condensed', sans-serif;
-    text-align: right;
-    display: flex;
-    flex-direction: row-reverse;
-    text-decoration: nonrgb(35,58,39);
-}
-.designer-name.navigation.nav.ul {
-    list-style-type: none;
 }
 
-#design-archives{
-    background: rgb(152, 199, 158) url(./images/bamboo.png);
-    width: auto;
-    margin: 0;
-    color: rgb(240, 235, 235);
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 24px;
-    text-align: left;
-    padding-bottom: 5px;
+footer a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 40px;
+    margin-top: 5px;
+    padding: 5px;
 }
-#zen-resources{
-    background: rgb(152, 199, 158) url(./images/bamboo.png);
-    width: auto;
-    margin: 0;
+
+footer a:hover{
+    opacity: 0.5;
+}
+
+#zen-validate-html, #zen-validate-css, #zen-license, #zen-accessibility, #zen-github {
+    background-color: #144347;
+    color: #fff;
+}
+/*  Struggling to get the hyperlinked wording to change colour and remove the underline, try using the text-decoration and list-style-type still not working. */
+#design-selection > nav > ul > li {
+    background: rgb(194, 212, 194);
+    float: left;
+    width: 50%;
+    padding: 20px 100px 20px;
     color: rgb(240, 235, 235);
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 24px;
-    text-align: left;
-    padding-bottom: 5px;
+    text-align: center;
+    font-family: 'IBM Plex mono', monospace;
+    font-size: 13px;
+    border-bottom: 1px dashed slategray;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+#design-archives > nav > ul > li {
+    background: rgb(194, 212, 194);
+    float: left;
+    width: 50%;
+    padding: 20px 100px 20px;
+    color: rgb(240, 235, 235);
+    text-align: center;
+    font-family: 'IBM Plex mono', monospace;
+    font-size: 13px;
+    border-bottom: 1px dashed slategray;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+#zen-resources > ul > li{
+    background:#98C79E url(./images/bamboo.png);
+    float: left;
+    width: 50%;
+    padding: 10px 100px 10px;
+    color: rgb(240, 235, 235);
+    text-align: center;
+    font-family: 'IBM Plex mono', monospace;
+    font-size: 13px;
+    border-bottom: 1px dashed slategray;
+    list-style-type: none;
+    text-decoration: none;
 }
